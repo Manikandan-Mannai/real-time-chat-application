@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@300&display=swap');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  max-height: 100vh;
+  background-color: #E5EFFB;
+  /* background-image: url("./Assets/background.jpeg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  padding: 30px;
+
+  /* // White */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(left, #fff, #e4e4e4);
+    border: 1px solid #aaa;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+  }
+
+  ::-webkit-scrollbar-thumb:active {
+    background: linear-gradient(left, #22ADD4, #1E98BA);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+ 
+}
